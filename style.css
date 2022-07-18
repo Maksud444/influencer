@@ -1,0 +1,41 @@
+body{
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* header  */
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+}
+.menu{
+    margin-top: 20px;
+}
+/* hero-sectio */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text h1{
+    font-size: 40px;
+}
+.button {
+    border-radius: 22px;
+    background-color: red;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
