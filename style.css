@@ -1,5 +1,5 @@
 body{
-    padding: 30px;
+    padding: 40px;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -13,6 +13,7 @@ nav a{
 .main-header{
     display: flex;
     justify-content: space-between;
+    
 }
 .logo{
     font-size: 25px;
@@ -30,12 +31,54 @@ nav a{
 }
 .button {
     border-radius: 22px;
-    background-color: red;
+    border: none;
+    background-color: #E02C6D;
     color: white;
+    width: 200px;
     margin: 30px;
     padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
 }
 .button a{
     text-decoration: none;
     color: white;
+}
+ /* logo-banner  */
+ .logos img{
+    margin: 10px;
+    padding: 20px;
+    
+ }
+.logo-banner{
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
+/* populer collection */
+.Collections{
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns:repeat(3, 2fr);
+}
+.collection{
+   width: 320px;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+   padding: 20px;
+   margin: 10px;
+   border-radius: 3px;
+
+}
+.fa-star.filled{
+    color: #faba09;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/* banner-section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+    padding: 20px;
 }
